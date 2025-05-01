@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e0a300, #dd4d00);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.timer-container {
+  display: flex;
+  gap: 30px;
+  padding: 30px 40px;
+  background-color: #ff9c00;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.time-box {
+  background-color: #1a120b;
+  color: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  width: 120px;
+}
+
+.time-box div {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time-box span {
+  margin-top: 10px;
+  display: block;
+  font-size: 16px;
+}
